@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    background-color: #6c2596;
+    width: 100%;
+    height: 100%;
+}
+section{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+a{
+    color: #ffa51e;
+}
+
+p,
+h1,
+span {
+    color: #b8b8b8;
+    font-family: Helvetica, sans-serif;
+}
+
+#container{
+    background: linear-gradient(to top, #6c2596 50%, #351149 90%);
+    height: 1100px;
+    overflow: hidden;
+}
+
+#halloween{
+    width: 500px;
+    position: absolute;
+    bottom: 150px;
+    color: #fff;
+    z-index: 11;
+    left: 30%;
+}
+
+#container:before{
+    position: absolute;
+    bottom: 0;
+    content: '';
+    background: linear-gradient(to top, #6c2596, transparent);
+    width: 100%;
+    height: 100px;
+    z-index: 11;
+}
+
+
+#nuvem{
+    position: absolute;
+    left: 0;
+    width: 1500px;
+}
+
+#lua{
+    right: 0;
+    width: 250px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+#bruxa{
+    width: 250px;
+    position: absolute;
+    z-index: 20;
+    bottom: 0px;
+    left: 0;
+    transform: scaleX(-1);
+}
+
+#espantalho{
+    position: absolute;
+    bottom: 450px;
+    right: 0;
+    width: 200px;
+    z-index: 9;
+}
+
+#cemiterio{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    z-index: 10;
+}
+
+#morcego{
+    bottom: 0;
+    right: 0;
+    width: 200px;
+    position: absolute;
+    z-index: 50;
+}
+
+#second-container{
+    padding: 50px;
+    position: relative;
+}
+p{
+    margin-bottom: 30px;
+}
+
+#footer{
+    left: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+
+#footer-text{
+    left: 35%;
+    position: absolute;
+    z-index: 500;
+    top: 290%;
+}
